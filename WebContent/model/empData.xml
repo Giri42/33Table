@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+   <element>
+      <dept>SAP</dept>
+      <name>Devender</name>
+      <role>Trainer</role>
+   </element>
+   <element>
+      <dept>SAP</dept>
+      <name>Giri</name>
+      <role>Developer</role>
+   </element>
+   <element>
+      <dept>ORACLE</dept>
+      <name>Sandeep</name>
+      <role>Admin</role>
+   </element>
+   <element>
+      <dept>Java</dept>
+      <name>Santosh</name>
+      <role>Application Developer</role>
+   </element>
+   <element>
+      <dept>Data Science</dept>
+      <name>Vivek</name>
+      <role>Data Scientist</role>
+   </element>
+</root>

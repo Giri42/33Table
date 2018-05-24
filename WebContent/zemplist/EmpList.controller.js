@@ -6,9 +6,14 @@ sap.ui.controller("zemplist.EmpList", {
 * @memberOf zemplist.EmpList
 */
 	onInit: function() {
-				var oModel = new sap.ui.model.json.JSONModel();
+				/*var oModel = new sap.ui.model.json.JSONModel();
 				oModel.loadData("model/empData.json");				
-				this.getView().setModel(oModel);
+				this.getView().setModel(oModel);*/
+		 
+		     var oModel = new sap.ui.model.xml.XMLModel();
+		     oModel.loadData("model/empData.xml");
+		     this.getView().setModel(oModel);
+		
 	},
 
 /**
