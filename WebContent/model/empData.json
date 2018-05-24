@@ -1,0 +1,28 @@
+ [
+    {
+    "name" : "Devender",
+    "dept" : "SAP",
+    "role" : "Trainer"
+    },
+    {
+    "name" : "Giri",
+    "dept" : "SAP",
+    "role" : "Developer"
+    },
+    {
+    "name" : "Sandeep",
+    "dept" : "ORACLE",
+    "role" : "Admin"
+    },
+    {
+    "name" : "Santosh",
+    "dept" : "Java",
+    "role" : "Application Developer"
+    },
+    {
+    "name" : "Vivek",
+    "dept" : "Data Science",
+    "role" : "Data Scientist"
+    }
+   
+   ]
