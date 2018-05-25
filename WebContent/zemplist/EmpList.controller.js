@@ -9,10 +9,22 @@ sap.ui.controller("zemplist.EmpList", {
 				/*var oModel = new sap.ui.model.json.JSONModel();
 				oModel.loadData("model/empData.json");				
 				this.getView().setModel(oModel);*/
+		
+		/*var oModel = new sap.ui.model.json.JSONModel();
+		oModel.loadData("model/empData.json");				
+		this.getView().setModel(oModel, "m3");*/
 		 
 		     var oModel = new sap.ui.model.xml.XMLModel();
 		     oModel.loadData("model/empData.xml");
 		     this.getView().setModel(oModel);
+		     
+		     sap.ui.localResources("i18n");
+		     var rModel = new sap.ui.model.resource.ResourceModel({
+		    	 bundleName : "i18n.mySource"
+		     });
+		     //naming model
+		     this.getView().setModel(rModel, "m2");
+		     
 		
 	},
 
